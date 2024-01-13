@@ -1,3 +1,5 @@
+#A graphical connect4 game using pyton
+
 import sys
 import numpy as np
 import pygame 
@@ -91,7 +93,7 @@ myfont = pygame.font.SysFont("monspace",75)
 while not game_over:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            sys.exit()
+            sys.exit() #exits window
         if event.type == pygame.MOUSEMOTION:
             pygame.draw.rect(screen,BLACK,(0,0,width,SQUARESIZE))
             posx = event.pos[0]
@@ -104,7 +106,7 @@ while not game_over:
             pygame.draw.rect(screen,BLACK,(0,0,width,SQUARESIZE))
             # print(event.pos)
             if turn == 0:
-                posx = event.pos[0]
+                posx = event.pos[0] #gives position of mosue
                 col = int(math.floor(posx/SQUARESIZE))
 
                 if(valid_location(board,col)):
