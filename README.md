@@ -53,6 +53,6 @@ Ensure you have Python 3.6+ installed. Additionally, you'll need the following P
 - **NumPy** - For efficient board management.
 
 ## Acknowledgments
-This project is based on the tutorial by **Keith Galli88.
+This project is based on the tutorial by **Keith Galli**.
 The code and logic were directly implemented as demonstrated in their video: https://www.youtube.com/watch?v=UYgyRArKDEs&list=PLFCB5Dp81iNV_inzM-R9AKkZZlePCZdtV
 
