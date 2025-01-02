@@ -1,4 +1,4 @@
-#A graphical connect4 game using pyton
+#A graphical connect4 game using python
 
 import sys
 import numpy as np
@@ -15,7 +15,7 @@ PLAYER2 = (243,248,255)
 ROW_COUNT = 6
 COLUMN_COUNT = 7
 
-def creat_board():
+def create_board():
     board = np.zeros((ROW_COUNT,COLUMN_COUNT))
     return board
 
@@ -69,7 +69,7 @@ def draw_board(board):
                 pygame.draw.circle(screen,PLAYER2,(int(c*SQUARESIZE+SQUARESIZE/2),height-int(r*SQUARESIZE+SQUARESIZE/2)),RADIUS) 
     pygame.display.update()       
 
-board = creat_board();
+board = create_board();
 
 game_over = False
 turn = 0
